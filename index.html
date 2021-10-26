@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAREAS</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <div id="introTareas">
+
+            <form class="formHeader">
+
+                <input type="text" class="inputTarea" name="tareas" placeholder="Introduce una tarea">
+
+                <select name="prioridad" id="selectPrioridad">
+                    <option value="">Selecciona una prioridad</option>
+                    <option value="Urgente">Urgente</option>
+                    <option value="Diaria">Diaria</option>
+                    <option value="Mensual">Mensual</option>
+                </select>
+
+                <button class="btnGuardar" >GUARDAR</button>
+
+            </form>
+
+            <div class="alert">Debes completar todos los campos</div>
+
+        </div>
+
+
+        <div id="buscarTareas">
+            <form class="formBuscarTarea">
+                <select name="" id="filtrarTarea">
+                    <option value="">Selecciona una prioridad</option>
+                    <option value="Urgente">Urgente</option>
+                    <option value="Diaria">Diaria</option>
+                    <option value="Mensual">Mensual</option>
+                </select>
+
+                <input type="text" class="filtrarTareaInput"name="TAREAS" placeholder="Tarea a buscar">
+
+            </form>
+
+        </div>
+
+        <div id="barraTareas">
+            <ul>
+                <!-- <li class="tarea">
+                    <div>VER LA ISLA DE LAS TENTACIONES</div>
+                    <button class="eliminar">Eliminar</button>
+                </li> -->
+            </ul>
+        </div>
+
+
+        <script src="js/init.js"></script>
+        <script src="js/main.js"></script>
+    </div>
+
+
+</body>
+
+</html>

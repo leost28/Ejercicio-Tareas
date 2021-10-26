@@ -1,0 +1,142 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    background-color:white;
+    max-width: 50vw;
+    height: 75vh;
+    margin: 0 auto;
+    
+}
+
+/* COMIENZA INTRO TAREAS */
+
+#introTareas {
+    background-color: rgb(200, 199, 199);
+    height: 20%; 
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+}
+
+form {
+    display: flex;
+    padding-top: 30px;
+    padding-left: 15px;
+}
+
+#introTareas .formHeader input {
+    width: 50%;
+}
+
+#introTareas .formHeader select {
+    width: 30%;
+    margin: 0 1.25%;
+}
+
+#introTareas .formHeader button {
+    width: 15%;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+
+.alert {
+    background-color: tomato;
+    margin: 5px 15px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    border: 1px solid black;
+}
+
+/* FIN INTRO TAREAS */
+
+/* COMIENZA BUSCAR TAREAS */
+
+#buscarTareas{
+    height: 50px;
+    border: 2px solid black;
+    
+    
+}
+
+#buscarTareas .formBuscarTarea input {
+    width: 30%;
+}
+
+#buscarTareas .formBuscarTarea select {
+    width: 30%;
+    margin: 0 1.25%;
+}
+
+.formBuscarTarea {
+    padding: 15px;
+}
+
+/* FIN BUSCAR TAREAS */
+
+/* COMIENZA BARRA TAREAS */
+
+#barraTareas{
+    overflow: auto;
+    height: 90%;
+    background-image: url(https://cdn.businessinsider.es/sites/navi.axelspringer.es/public/styles/bi_600x451/public/media/image/2020/02/chica-lofi-hip-hop-radio-beats-relax-study-1875649.jpg?itok=QgjHDyCh);
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    background-size: cover;
+    background-position: center center;
+    background-color: rgb(219, 116, 116);
+    background-blend-mode: multiply;
+}
+
+#barraTareas .tarea {
+    display: flex; 
+    border: 1px solid black
+}
+
+#barraTareas .tarea>div {
+    /* el background color es estatico en funcion de la prioridad */
+    height: 75px;
+    width: 90%;
+    padding: 30px;
+    font-family: serif;
+    font-weight: bold;
+    border: 1px solid black;
+    
+}
+
+#barraTareas button{
+    background-color: rgb(0, 0, 0);
+    width: 25%;
+    border: 1px solid black;
+    font-size: 18px;
+    font-family: serif;
+    color: white;
+}
+
+#barraTareas button:hover{
+    background-color: tomato;
+    color: black;
+    transition: 1.5s;
+    width: 75%;
+    cursor: pointer;
+}
+
+.rojo{
+    background-color: rgb(243, 0, 0);
+}
+
+
+.azul{
+    background-color:rgb(30, 174, 218);
+}
+
+.yellow{
+    background-color: gold;
+}
